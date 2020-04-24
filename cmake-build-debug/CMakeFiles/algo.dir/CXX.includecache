@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/taitan/dev/code/cpp/algo/array.h
+stddef.h
+-
+stdint.h
+-
+stdio.h
+-
+
+/Users/taitan/dev/code/cpp/algo/tree.cpp
+tree.h
+/Users/taitan/dev/code/cpp/algo/tree.h
+array.h
+/Users/taitan/dev/code/cpp/algo/array.h
+
+/Users/taitan/dev/code/cpp/algo/tree.h
+stddef.h
+-
+stdint.h
+-
+stdio.h
+-
+
