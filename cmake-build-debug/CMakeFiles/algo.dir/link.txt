@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/algo.dir/main.cpp.o CMakeFiles/algo.dir/array.cpp.o CMakeFiles/algo.dir/list.cpp.o CMakeFiles/algo.dir/tree.cpp.o  -o algo 
+/usr/bin/c++  -g   CMakeFiles/algo.dir/array.cpp.o CMakeFiles/algo.dir/list.cpp.o CMakeFiles/algo.dir/main.cpp.o CMakeFiles/algo.dir/tree.cpp.o CMakeFiles/algo.dir/str.cpp.o CMakeFiles/algo.dir/array_queue.cpp.o CMakeFiles/algo.dir/queue.cpp.o  -o algo 

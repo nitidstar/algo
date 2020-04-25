@@ -22,8 +22,10 @@ namespace NsTree {
     void PrintTree(Node *root, int32_t depth);
 
     Node *BuildTree(int32_t *preoder, int32_t *inorder, int32_t size);
-
     void TestBuildTree();
+
+    void LevelTraverse(Node* root);
+    void TestLevelTraverse();
 
     void TestAll();
 }

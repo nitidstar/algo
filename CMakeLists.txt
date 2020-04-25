@@ -1,6 +1,15 @@
-cmake_minimum_required(VERSION 3.16)
+cmake_minimum_required(VERSION 3.14)
 project(algo)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(algo main.cpp array.cpp list.cpp tree.cpp)
+include_directories(.)
+
+add_executable(algo
+        array.cpp
+        array.h
+        list.cpp
+        list.h
+        main.cpp
+        tree.cpp
+        tree.h str.h str.cpp array_queue.cpp array_queue.h queue.h queue.cpp)

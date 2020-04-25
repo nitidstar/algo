@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/taitan/dev/code/cpp/algo/array.h
+/home/gwj/dev/code/cpp/algo/array.h
 stddef.h
 -
 stdint.h
@@ -14,13 +14,15 @@ stdint.h
 stdio.h
 -
 
-/Users/taitan/dev/code/cpp/algo/tree.cpp
+/home/gwj/dev/code/cpp/algo/tree.cpp
 tree.h
-/Users/taitan/dev/code/cpp/algo/tree.h
+/home/gwj/dev/code/cpp/algo/tree.h
 array.h
-/Users/taitan/dev/code/cpp/algo/array.h
+/home/gwj/dev/code/cpp/algo/array.h
+queue
+-
 
-/Users/taitan/dev/code/cpp/algo/tree.h
+/home/gwj/dev/code/cpp/algo/tree.h
 stddef.h
 -
 stdint.h

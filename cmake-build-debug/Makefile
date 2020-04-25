@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /home/gwj/opt/clion-2020.1/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /home/gwj/opt/clion-2020.1/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/taitan/dev/code/cpp/algo
+CMAKE_SOURCE_DIR = /home/gwj/dev/code/cpp/algo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/taitan/dev/code/cpp/algo/cmake-build-debug
+CMAKE_BINARY_DIR = /home/gwj/dev/code/cpp/algo/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/taitan/dev/code/cpp/algo/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/gwj/opt/clion-2020.1/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/gwj/opt/clion-2020.1/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/taitan/dev/code/cpp/algo/cmake-build-debug/CMakeFiles /Users/taitan/dev/code/cpp/algo/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gwj/dev/code/cpp/algo/cmake-build-debug/CMakeFiles /home/gwj/dev/code/cpp/algo/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/taitan/dev/code/cpp/algo/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gwj/dev/code/cpp/algo/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,6 +150,33 @@ array.cpp.s:
 	$(MAKE) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/array.cpp.s
 .PHONY : array.cpp.s
 
+array_queue.o: array_queue.cpp.o
+
+.PHONY : array_queue.o
+
+# target to build an object file
+array_queue.cpp.o:
+	$(MAKE) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/array_queue.cpp.o
+.PHONY : array_queue.cpp.o
+
+array_queue.i: array_queue.cpp.i
+
+.PHONY : array_queue.i
+
+# target to preprocess a source file
+array_queue.cpp.i:
+	$(MAKE) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/array_queue.cpp.i
+.PHONY : array_queue.cpp.i
+
+array_queue.s: array_queue.cpp.s
+
+.PHONY : array_queue.s
+
+# target to generate assembly for a file
+array_queue.cpp.s:
+	$(MAKE) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/array_queue.cpp.s
+.PHONY : array_queue.cpp.s
+
 list.o: list.cpp.o
 
 .PHONY : list.o
@@ -204,6 +231,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+queue.o: queue.cpp.o
+
+.PHONY : queue.o
+
+# target to build an object file
+queue.cpp.o:
+	$(MAKE) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/queue.cpp.o
+.PHONY : queue.cpp.o
+
+queue.i: queue.cpp.i
+
+.PHONY : queue.i
+
+# target to preprocess a source file
+queue.cpp.i:
+	$(MAKE) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/queue.cpp.i
+.PHONY : queue.cpp.i
+
+queue.s: queue.cpp.s
+
+.PHONY : queue.s
+
+# target to generate assembly for a file
+queue.cpp.s:
+	$(MAKE) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/queue.cpp.s
+.PHONY : queue.cpp.s
+
+str.o: str.cpp.o
+
+.PHONY : str.o
+
+# target to build an object file
+str.cpp.o:
+	$(MAKE) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/str.cpp.o
+.PHONY : str.cpp.o
+
+str.i: str.cpp.i
+
+.PHONY : str.i
+
+# target to preprocess a source file
+str.cpp.i:
+	$(MAKE) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/str.cpp.i
+.PHONY : str.cpp.i
+
+str.s: str.cpp.s
+
+.PHONY : str.s
+
+# target to generate assembly for a file
+str.cpp.s:
+	$(MAKE) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/str.cpp.s
+.PHONY : str.cpp.s
+
 tree.o: tree.cpp.o
 
 .PHONY : tree.o
@@ -243,12 +324,21 @@ help:
 	@echo "... array.o"
 	@echo "... array.i"
 	@echo "... array.s"
+	@echo "... array_queue.o"
+	@echo "... array_queue.i"
+	@echo "... array_queue.s"
 	@echo "... list.o"
 	@echo "... list.i"
 	@echo "... list.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... queue.o"
+	@echo "... queue.i"
+	@echo "... queue.s"
+	@echo "... str.o"
+	@echo "... str.i"
+	@echo "... str.s"
 	@echo "... tree.o"
 	@echo "... tree.i"
 	@echo "... tree.s"
