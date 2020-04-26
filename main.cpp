@@ -7,8 +7,8 @@
 
 int main() {
 //    NsArray::TestAll();
-    NsTree::TestAll();
-//    NsList::TestAll();
+//    NsTree::TestAll();
+    NsList::TestAll();
 //    NsQueue::TestAll();
     return 0;
 }

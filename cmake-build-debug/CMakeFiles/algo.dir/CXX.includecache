@@ -6,23 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/gwj/dev/code/cpp/algo/array.h
-stddef.h
--
-stdint.h
--
-stdio.h
--
+/Users/taitan/dev/code/cpp/algo/list.cpp
+list.h
+/Users/taitan/dev/code/cpp/algo/list.h
 
-/home/gwj/dev/code/cpp/algo/tree.cpp
-tree.h
-/home/gwj/dev/code/cpp/algo/tree.h
-array.h
-/home/gwj/dev/code/cpp/algo/array.h
-queue
--
-
-/home/gwj/dev/code/cpp/algo/tree.h
+/Users/taitan/dev/code/cpp/algo/list.h
 stddef.h
 -
 stdint.h

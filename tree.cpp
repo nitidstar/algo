@@ -97,7 +97,6 @@ namespace NsTree {
         if (!root) {
             return;
         }
-        std::vector<std::vector<Node*>> layers;
         std::vector<int32_t> layer;
         std::queue<Node *> q;
         q.push(root);
@@ -127,9 +126,9 @@ namespace NsTree {
                         printf("%-4d", layer[i]);
                     }
                 }
-                forward = !forward;
                 printf("\n");
                 layer.clear();
+                forward = !forward;
             }
         }
         for (int i = 0; i < layer.size(); ++i) {

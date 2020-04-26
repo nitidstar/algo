@@ -23,7 +23,9 @@ namespace NsList {
 
     void PrintList(const char *title, Node *node);
 
-    Node *ReverseList(Node *node);
+    void BackWardPrintList(Node* node);
+
+    Node *ReverseListV1(Node *node);
 
     void TestReverseList();
 
