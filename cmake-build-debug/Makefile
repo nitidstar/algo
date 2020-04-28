@@ -177,6 +177,33 @@ array_queue.cpp.s:
 	$(MAKE) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/array_queue.cpp.s
 .PHONY : array_queue.cpp.s
 
+leetcode.o: leetcode.cpp.o
+
+.PHONY : leetcode.o
+
+# target to build an object file
+leetcode.cpp.o:
+	$(MAKE) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/leetcode.cpp.o
+.PHONY : leetcode.cpp.o
+
+leetcode.i: leetcode.cpp.i
+
+.PHONY : leetcode.i
+
+# target to preprocess a source file
+leetcode.cpp.i:
+	$(MAKE) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/leetcode.cpp.i
+.PHONY : leetcode.cpp.i
+
+leetcode.s: leetcode.cpp.s
+
+.PHONY : leetcode.s
+
+# target to generate assembly for a file
+leetcode.cpp.s:
+	$(MAKE) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/leetcode.cpp.s
+.PHONY : leetcode.cpp.s
+
 list.o: list.cpp.o
 
 .PHONY : list.o
@@ -230,6 +257,33 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+misc.o: misc.cpp.o
+
+.PHONY : misc.o
+
+# target to build an object file
+misc.cpp.o:
+	$(MAKE) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/misc.cpp.o
+.PHONY : misc.cpp.o
+
+misc.i: misc.cpp.i
+
+.PHONY : misc.i
+
+# target to preprocess a source file
+misc.cpp.i:
+	$(MAKE) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/misc.cpp.i
+.PHONY : misc.cpp.i
+
+misc.s: misc.cpp.s
+
+.PHONY : misc.s
+
+# target to generate assembly for a file
+misc.cpp.s:
+	$(MAKE) -f CMakeFiles/algo.dir/build.make CMakeFiles/algo.dir/misc.cpp.s
+.PHONY : misc.cpp.s
 
 queue.o: queue.cpp.o
 
@@ -327,12 +381,18 @@ help:
 	@echo "... array_queue.o"
 	@echo "... array_queue.i"
 	@echo "... array_queue.s"
+	@echo "... leetcode.o"
+	@echo "... leetcode.i"
+	@echo "... leetcode.s"
 	@echo "... list.o"
 	@echo "... list.i"
 	@echo "... list.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... misc.o"
+	@echo "... misc.i"
+	@echo "... misc.s"
 	@echo "... queue.o"
 	@echo "... queue.i"
 	@echo "... queue.s"

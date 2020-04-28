@@ -96,6 +96,12 @@
 		<Unit filename="/Users/taitan/dev/code/cpp/algo/array_queue.h">
 			<Option target="algo"/>
 		</Unit>
+		<Unit filename="/Users/taitan/dev/code/cpp/algo/leetcode.cpp">
+			<Option target="algo"/>
+		</Unit>
+		<Unit filename="/Users/taitan/dev/code/cpp/algo/leetcode.h">
+			<Option target="algo"/>
+		</Unit>
 		<Unit filename="/Users/taitan/dev/code/cpp/algo/list.cpp">
 			<Option target="algo"/>
 		</Unit>
@@ -103,6 +109,12 @@
 			<Option target="algo"/>
 		</Unit>
 		<Unit filename="/Users/taitan/dev/code/cpp/algo/main.cpp">
+			<Option target="algo"/>
+		</Unit>
+		<Unit filename="/Users/taitan/dev/code/cpp/algo/misc.cpp">
+			<Option target="algo"/>
+		</Unit>
+		<Unit filename="/Users/taitan/dev/code/cpp/algo/misc.h">
 			<Option target="algo"/>
 		</Unit>
 		<Unit filename="/Users/taitan/dev/code/cpp/algo/queue.cpp">

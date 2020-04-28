@@ -14,13 +14,19 @@ CMakeFiles/algo.dir/main.cpp.o
  /Users/taitan/dev/code/cpp/algo/array.h
  /Users/taitan/dev/code/cpp/algo/list.h
  /Users/taitan/dev/code/cpp/algo/main.cpp
+ /Users/taitan/dev/code/cpp/algo/misc.h
  /Users/taitan/dev/code/cpp/algo/queue.h
+ /Users/taitan/dev/code/cpp/algo/str.h
  /Users/taitan/dev/code/cpp/algo/tree.h
+CMakeFiles/algo.dir/misc.cpp.o
+ /Users/taitan/dev/code/cpp/algo/misc.cpp
+ /Users/taitan/dev/code/cpp/algo/misc.h
 CMakeFiles/algo.dir/queue.cpp.o
  /Users/taitan/dev/code/cpp/algo/array_queue.h
  /Users/taitan/dev/code/cpp/algo/queue.cpp
 CMakeFiles/algo.dir/str.cpp.o
  /Users/taitan/dev/code/cpp/algo/str.cpp
+ /Users/taitan/dev/code/cpp/algo/str.h
 CMakeFiles/algo.dir/tree.cpp.o
  /Users/taitan/dev/code/cpp/algo/array.h
  /Users/taitan/dev/code/cpp/algo/tree.cpp

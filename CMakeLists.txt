@@ -12,4 +12,4 @@ add_executable(algo
         list.h
         main.cpp
         tree.cpp
-        tree.h str.h str.cpp array_queue.cpp array_queue.h queue.h queue.cpp)
+        tree.h str.h str.cpp array_queue.cpp array_queue.h queue.h queue.cpp misc.h misc.cpp leetcode.h leetcode.cpp)
